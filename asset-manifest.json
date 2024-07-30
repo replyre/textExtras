@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/textExtras/static/css/main.8f31bc93.css",
+    "main.js": "/textExtras/static/js/main.0ea7cbc4.js",
+    "static/js/453.d4a3d352.chunk.js": "/textExtras/static/js/453.d4a3d352.chunk.js",
+    "index.html": "/textExtras/index.html",
+    "main.8f31bc93.css.map": "/textExtras/static/css/main.8f31bc93.css.map",
+    "main.0ea7cbc4.js.map": "/textExtras/static/js/main.0ea7cbc4.js.map",
+    "453.d4a3d352.chunk.js.map": "/textExtras/static/js/453.d4a3d352.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f31bc93.css",
+    "static/js/main.0ea7cbc4.js"
+  ]
+}
