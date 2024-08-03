@@ -30,6 +30,7 @@ const App = () => {
             onClick={() => {
               setTab("Home");
             }}
+            style={tab == "Home" ? { fontWeight: "bold" } : {}}
           >
             Home
           </li>
@@ -37,6 +38,7 @@ const App = () => {
             onClick={() => {
               setTab("About");
             }}
+            style={tab == "About" ? { fontWeight: "bold" } : {}}
           >
             About
           </li>
@@ -44,6 +46,7 @@ const App = () => {
             onClick={() => {
               setTab("Contact");
             }}
+            style={tab == "Contact" ? { fontWeight: "bold" } : {}}
           >
             Contact
           </li>
