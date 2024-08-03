@@ -113,3 +113,141 @@ svg {
   font-weight: bold;
   text-decoration: none;
 }
+
+.accordion {
+  min-width: 800px;
+  max-width: 800px;
+  border: none;
+}
+
+.acc-panel {
+  padding: 0px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+:root {
+  --green: #58a497;
+  --yellow: #e09449;
+  --lightgreen1: #a4bdb7;
+  --brown: #8b4448;
+  --gray: gray;
+  --lightgreen2: rgb(164, 189, 183, 0.5);
+  --box: #ededed;
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background: #a4bdb7;
+} */
+
+/* Content-1:Start */
+.box {
+  width: 350px;
+  height: fit-content;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  background: #ededed8c;
+}
+
+.box1 {
+  margin-top: 10px;
+}
+
+.content {
+  margin: 15px 2px;
+}
+
+.image img {
+  height: auto;
+  width: 120px;
+  border-radius: 10%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 5px; */
+}
+
+.level {
+  font-size: 18px;
+}
+
+.name {
+  font-size: 1.25em;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.job_title {
+  font-size: 0.65em;
+  font-weight: bolder;
+  color: var(--bg-color3);
+  margin-top: -2px;
+}
+
+.job_discription {
+  font-size: 0.7em;
+  color: var(--bg-color3);
+  margin: 10px 30px 20px;
+}
+
+.icons {
+  margin: 0px 30px;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons button {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  font-size: 1em;
+  color: var(--primary-color);
+}
+
+ion-icon:hover {
+  color: var(--bg-color3);
+  transition: 0.5s;
+}
+
+.box button {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  nav ul {
+    order: 3;
+    grid-column: span 2;
+    justify-content: end;
+  }
+
+  nav button {
+    margin-top: 5px;
+  }
+  .buttons {
+    justify-content: space-evenly;
+  }
+  .accordion {
+    min-width: 360px;
+    max-width: 360px;
+  }
+  .accordion__button {
+    width: auto !important;
+  }
+}
